@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./navBar.css";
-import Github from "../../assets/linkedin.png";
+import Man from "../../assets/young-man.png";
 import contact from "../../assets/contact-me.png";
 import { Link } from "react-scroll";
 import menu from "../../assets/burger-menu.png";
@@ -9,7 +9,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <nav className="navbar">
-      <img src={Github} alt="Logo" className="logo"></img>
+      <img src={Man} alt="Logo" className="logo"></img>
       <div className="desktopMenu">
         <Link
           activeClass="active"
