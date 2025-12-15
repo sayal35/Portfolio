@@ -5,6 +5,7 @@ import Instagram from "../../assets/instagram.png";
 import LinkedIn from "../../assets/linkedin.png";
 import Github from "../../assets/github.png";
 import emailjs from "@emailjs/browser";
+import XITTOOTECH from "../../assets/xittotech.png";
 
 const Contact = () => {
   const form = useRef();
@@ -58,7 +59,7 @@ const Contact = () => {
           company named:
         </p>
         <div className="experienceImgs">
-          <img src={Github} alt="NeogenxAI" className="experienceImg" />
+          <img src={XITTOOTECH} alt="XITTOTECH" className="experienceImg" />
         </div>
       </div>
 

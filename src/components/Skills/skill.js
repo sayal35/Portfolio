@@ -8,9 +8,9 @@ const Skill = () => {
     <section id="skill">
       <span className="skillTitle"> What I do</span>
       <span className="skillDesc">
-        I am a mobile application and web developer who builds responsive,
-        high-performance web interfaces using React and Vite, and develops
-        clean, scalable cross-platform mobile applications with Flutter.
+        I am a web developer who builds responsive, high-performance web
+        applications using React.js and Node.js, focusing on clean, scalable
+        code and efficient frontend-backend integration.
       </span>
       <div className="skillBoxes">
         <div className="skillBox">
@@ -27,7 +27,11 @@ const Skill = () => {
           <img src={BackendDesign} alt="Web" className="skillBoxImg" />
           <div className="skillBoxText">
             <h2>Backend Development</h2>
-            <p>I am familiar with nodejs as a backend service.</p>
+            <p>
+              I have practical knowledge of backend development using Node.js,
+              including building APIs, server-side logic, and managing database
+              interactions.
+            </p>
           </div>
         </div>
       </div>

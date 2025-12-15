@@ -1,38 +1,55 @@
 import React from "react";
 import "./project.css";
 
+const projects = [
+  {
+    name: "Restaurant Management System (RMS)",
+    github: "https://github.com/yourusername/rms-project",
+  },
+  {
+    name: "Career Forge",
+    github: "https://github.com/yourusername/career-forge",
+  },
+  {
+    name: "Rental System",
+    github: "https://github.com/yourusername/rental-system",
+  },
+  {
+    name: "Project 4",
+    github: "https://github.com/yourusername/project-4",
+  },
+  {
+    name: "Project 5",
+    github: "https://github.com/yourusername/project-5",
+  },
+];
+
 const Project = () => {
   return (
     <section id="project">
       <h2 className="projectTitle">My Projects</h2>
       <span className="projectDesc">
-        I have worked on a variety of projects across different technologies,
-        which has helped me build a strong foundation in programming and
-        application development. My experience includes developing a car game
-        using C++ and building several small projects using C#. In addition, I
-        have created multiple web applications using React.js and modern
-        tooling, as well as cross-platform mobile applications using Flutter,
-        focusing on functionality, usability and clean code.
+        I have worked on multiple full-stack projects, including:
+        <br />
+        Restaurant Management System (RMS) – built with React.js , focusing on
+        order management and user-friendly interfaces. <br />
+        Career Forge – a platform developed using React.js and firebase,
+        implementing job listing, application tracking. <br />
+        Rental System – a web application using React.js and Node.js, with
+        features for managing rentals, bookings, and database operations.
       </span>
-      <div className="projectImgs">
-        {/* <a href='https://github.com/nirdeshika-07/Escape-Cars' target='_blank' rel='noopener noreferrer'>
-          <img src={Escape} alt='Car' className='projectImg'/>
-        </a>
-        <a href='https://github.com/nirdeshika-07/Food-Menu-App' target='_blank' rel='noopener noreferrer'>
-          <img src={Menu} alt='Menu' className='projectImg'/>
-        </a>
-        <a href='https://github.com/nirdeshika-07/Stop-Watch' target='_blank' rel='noopener noreferrer'>
-          <img src={Stopwatch} alt='Stopwatch' className='projectImg'/>
-        </a>
-        <a href='https://github.com/nirdeshika-07/Calcutator-with-Datatable' target='_blank' rel='noopener noreferrer'>
-          <img src={Calculator} alt='Calculator' className='projectImg'/>
-        </a>
-        <a href='https://github.com/nirdeshika-07/Currency-Converter' target='_blank' rel='noopener noreferrer'>
-          <img src={Currency} alt='Currency' className='projectImg'/>
-        </a>
-        <a href='https://github.com/nirdeshika-07/TextEditor' target='_blank' rel='noopener noreferrer'>
-          <img src={TextEditor} alt='TextEditor' className='projectImg'/>
-        </a> */}
+
+      {/* Added Card Section */}
+      <div className="projectCards">
+        {projects.map((proj, index) => (
+          <div
+            key={index}
+            className="projectCard"
+            onClick={() => window.open(proj.github, "_blank")}
+          >
+            {proj.name}
+          </div>
+        ))}
       </div>
     </section>
   );
