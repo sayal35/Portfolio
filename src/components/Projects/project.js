@@ -3,24 +3,26 @@ import "./project.css";
 
 const projects = [
   {
-    name: "Restaurant Management System (RMS)",
-    github: "https://github.com/yourusername/rms-project",
+    name: "Multi-Category Rental System",
+    github: "https://github.com/sayal35/Rental-system",
   },
   {
     name: "Career Forge",
-    github: "https://github.com/yourusername/career-forge",
+    github: "https://github.com/Dipak-Shrestha/careerforge",
   },
   {
-    name: "Rental System",
-    github: "https://github.com/yourusername/rental-system",
+    name: "Restaurant Management System",
   },
   {
-    name: "Project 4",
-    github: "https://github.com/yourusername/project-4",
+    name: "Food App",
+    github: "https://github.com/sayal35/FoodApp",
   },
   {
-    name: "Project 5",
-    github: "https://github.com/yourusername/project-5",
+    name: "Ecommerce site",
+    github: "https://github.com/sayal35/Ecommerce-Site",
+  },
+  {
+    name: "......",
   },
 ];
 

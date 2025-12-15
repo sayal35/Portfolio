@@ -61,6 +61,11 @@ const Contact = () => {
         <div className="experienceImgs">
           <img src={XITTOOTECH} alt="XITTOTECH" className="experienceImg" />
         </div>
+        <p>
+          {" "}
+          as a web developer where i was involved with live project like
+          Restaurant Management System and Career Forge
+        </p>
       </div>
 
       <div id="contact">
