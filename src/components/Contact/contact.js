@@ -55,7 +55,7 @@ const Contact = () => {
       <div id="experience">
         <h1 className="contactPageTitle">My Experience</h1>
         <p className="experiencedesc">
-          I have had the opportunity to work for 4 months with a company named:
+          I have had the opportunity to work with a company named:
         </p>
         <div className="experienceImgs">
           <img src={XITTOOTECH} alt="XITTOTECH" className="experienceImg" />
